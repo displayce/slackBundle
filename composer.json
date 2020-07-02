@@ -11,7 +11,7 @@
   "license": "MIT",
   "require": {
     "php": ">=5.5",
-    "quitoque/slack": "^0.21.0",
+    "displayce/slack": "^0.22",
     "symfony/framework-bundle": "^2.3|^3.0|^4.0"
   },
   "require-dev": {
