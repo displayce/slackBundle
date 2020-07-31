@@ -1,6 +1,6 @@
 <?php
 
-namespace CL\Bundle\SlackBundle\Tests\DependencyInjection\Compiler;
+namespace CL\Bundle\SlackBundle\Tests;
 
 use CL\Bundle\SlackBundle\CLSlackBundle;
 use CL\Bundle\SlackBundle\DependencyInjection\Compiler\RegisterApiClientPass;
