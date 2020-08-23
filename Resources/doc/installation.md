@@ -9,7 +9,7 @@ First you need to get a hold of this bundle. There are two ways to do this:
 Add the following to your ``composer.json`` (see http://getcomposer.org/)
 
     "require" :  {
-        "cleentfaar/slack-bundle": "~0.10"
+        "displayce/slack-bundle": "^0.22"
     }
 
 
@@ -18,7 +18,7 @@ Add the following to your ``composer.json`` (see http://getcomposer.org/)
 Run the following commands to bring in the needed libraries as submodules.
 
 ```bash
-git submodule add https://github.com/cleentfaar/CLSlackBundle.git vendor/bundles/CL/Bundle/SlackBundle
+git submodule add https://github.com/displayce/slackBundle.git vendor/bundles/CL/Bundle/SlackBundle
 ```
 
 
@@ -32,7 +32,7 @@ Otherwise, add the following two namespace entries to the `registerNamespaces` c
 // app/autoload.php
 $loader->registerNamespaces(array(
     // ...
-    'CL\Bundle\SlackBundle' => __DIR__.'/../vendor/bundles/cleentfaar/slack-bundle',
+    'CL\Bundle\SlackBundle' => __DIR__.'/../vendor/bundles/displayce/slack-bundle',
     // ...
 ));
 ```
@@ -76,9 +76,9 @@ cl_slack:
 ```
 
 This is all you need to start working with this bundle. If you would like to see a complete reference of
-all configuration options, check out the [configuration](https://github.com/cleentfaar/CLSlackBundle/blob/master/Resources/doc/configuration.md) chapter.
+all configuration options, check out the [configuration](https://github.com/displayce/slackBundle/blob/master/Resources/doc/configuration.md) chapter.
 
 
 # Ready?
 
-Let's start interacting with the Slack API! Check out the [usage documentation](https://github.com/cleentfaar/CLSlackBundle/blob/master/Resources/doc/usage.md)!
+Let's start interacting with the Slack API! Check out the [usage documentation](https://github.com/displayce/slackBundle/blob/master/Resources/doc/usage.md)!

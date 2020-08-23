@@ -28,4 +28,4 @@ of the `ApiClient` class (i.e. the `MockApiClient` class).
 This can be useful during functional tests, where you don't want to actually connect
 with the Slack API, but still get a more or less real-life response for whatever request you are handling.
 
-For more information, check out the [Usage during tests](https://github.com/cleentfaar/CLSlackBundle/blob/master/Resources/doc/usage-during-tests.md) documentation.
+For more information, check out the [Usage during tests](https://github.com/displayce/slackBundle/blob/master/Resources/doc/usage-during-tests.md) documentation.

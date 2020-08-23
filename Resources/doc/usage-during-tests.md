@@ -41,4 +41,4 @@ If you configure the bundle's `test` option to `true`, the `cl_slack.api_client`
 API client. This can be useful during functional tests, where you don't want to connect to remote services
 but still get a real-life response for your tests.
 
-You can read more out the `test` option in the [configuration](https://github.com/cleentfaar/CLSlackBundle/blob/master/Resources/doc/configuration.md) chapter.
+You can read more out the `test` option in the [configuration](https://github.com/displayce/slackBundle/blob/master/Resources/doc/configuration.md) chapter.

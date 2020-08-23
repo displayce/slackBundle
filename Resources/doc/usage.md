@@ -1,9 +1,9 @@
 # Usage
 
-The [SlackBundle](https://github.com/cleentfaar/CLSlackBundle) implements the [Slack](https://github.com/cleentfaar/slack) PHP library into your Symfony2 project.
-Therefore you can find most of the documentation about interacting with the Slack API [there](https://github.com/cleentfaar/slack/Resources/doc/usage.md).
+The [SlackBundle](https://github.com/displayce/slackBundle) implements the [Slack](https://github.com/displayce/slack) PHP library into your Symfony2 project.
+Therefore you can find most of the documentation about interacting with the Slack API [there](https://github.com/displayce/slack/Resources/doc/usage.md).
 
-**NOTE:** The example shown below is specific to this bundle; you should refer to the [library usage docs](https://github.com/cleentfaar/slack/Resources/doc/usage.md)
+**NOTE:** The example shown below is specific to this bundle; you should refer to the [library usage docs](https://github.com/displayce/slack/Resources/doc/usage.md)
 for examples on setting up the API client manually.
 
 
@@ -34,7 +34,7 @@ public function sendAction()
 ```
 
 In Slack, that should give you something like this in the `#general` channel:
-![Example of a message posted to Slack](https://raw.githubusercontent.com/cleentfaar/CLSlackBundle/master/Resources/doc/img/api-method-chat-postMessage.png)
+![Example of a message posted to Slack](https://raw.githubusercontent.com/displayce/slackBundle/master/Resources/doc/img/api-method-chat-postMessage.png)
 
 
 ## Handling the response
@@ -63,7 +63,7 @@ if ($response->isOk()) {
 ## Console Commands
 
 Previously, this bundle provided commands for the Symfony Console application. However, to allow non-Symfony projects
-to use them (and keep separation of concerns), the commands have been moved to a separate package: [Slack CLI](https://github.com/cleentfaar/slack-cli).
+to use them (and keep separation of concerns), the commands have been moved to a separate package: [Slack CLI](https://github.com/displayce/slack-cli).
 
 The CLI application is actually a `phar`-executable, and still allows you to set a default token if you wish
 to do so (using the `config.set` command).
